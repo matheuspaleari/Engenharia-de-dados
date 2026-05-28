@@ -1,6 +1,6 @@
-# Projeto ETL de Vendas
+# Projeto de Data Engineering ETL
 
-Projeto simples de Engenharia de Dados desenvolvido em Python utilizando ETL (Extract, Transform and Load).
+Projeto simples de Data Engineering desenvolvido em Python utilizando ETL (Extract, Transform and Load).
 
 ## Objetivo
 
@@ -11,7 +11,7 @@ Realizar:
 * carga em banco SQL;
 * análises de vendas.
 
-## Tecnologias utilizadas
+## Technologies Used
 
 * Python
 * Pandas
@@ -19,19 +19,19 @@ Realizar:
 * Google Colab
 * SQL
 
-## Pipeline
+## Data Pipeline
 
-CSV → Transformação → SQLite → Análises
+CSV → Data Transformation → SQLite Database → Data Analysis
 
-## Funcionalidades
+## Features
 
-* Leitura de CSV
-* Tratamento de dados
-* Criação de métricas
-* Consultas SQL
-* Visualização de dados
+* CSV Reading
+* Data Cleaning
+* Metrics Creation
+* SQL Queries
+* Data Visualization
 
-## Exemplo de ETL
+## ETL Example
 
 ### Extract
 
@@ -40,13 +40,13 @@ Leitura do CSV de vendas.
 ### Transform
 
 * Conversão de datas
-* Criação de coluna valor_total
-* Criação de coluna mês
+* Criação da coluna `valor_total`
+* Criação da coluna `mes`
 
 ### Load
 
 Carga dos dados em banco SQLite.
 
-## Autor
+## Author
 
 Matheus Paleari
