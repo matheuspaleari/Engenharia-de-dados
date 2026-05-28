@@ -1,0 +1,21 @@
+id,produto,categoria,valor,quantidade,data,cidade
+1,Notebook,Eletronicos,3500,1,2026-01-10,Sao Paulo
+2,Mouse,Eletronicos,120,2,2026-01-11,Campinas
+3,Teclado,Eletronicos,250,1,2026-01-11,Paulinia
+4,Cadeira Gamer,Moveis,1500,1,2026-01-12,Sumare
+5,Monitor,Eletronicos,900,2,2026-01-12,Campinas
+6,Fone Bluetooth,Eletronicos,300,3,2026-01-13,Sao Paulo
+7,Mesa Escritório,Moveis,850,1,2026-01-13,Paulinia
+8,HD Externo,Eletronicos,450,2,2026-01-14,Americana
+9,Impressora,Eletronicos,700,1,2026-01-14,Campinas
+10,Webcam,Eletronicos,200,4,2026-01-15,Sao Paulo
+11,Notebook,Eletronicos,4200,1,2026-01-16,Campinas
+12,Cadeira Escritório,Moveis,950,2,2026-01-16,Paulinia
+13,Mouse Pad,Acessorios,80,5,2026-01-17,Sumare
+14,Smartphone,Eletronicos,2800,1,2026-01-17,Sao Paulo
+15,Tablet,Eletronicos,1800,2,2026-01-18,Campinas
+16,Carregador,Acessorios,90,3,2026-01-18,Americana
+17,Headset,Eletronicos,400,2,2026-01-19,Paulinia
+18,SSD 1TB,Eletronicos,650,1,2026-01-19,Sao Paulo
+19,Microfone,Eletronicos,500,1,2026-01-20,Campinas
+20,Luminaria,Moveis,220,2,2026-01-20,Sumare
