@@ -1,52 +1,52 @@
-# Projeto de Data Engineering ETL
+# 🛠️ Projeto de Data Engineering ETL
 
-Projeto simples de Data Engineering desenvolvido em Python utilizando ETL (Extract, Transform and Load).
+Projeto simples de Data Engineering desenvolvido em Python utilizando ETL (Extract, Transform and Load). 🚀
 
-## Objetivo
+## 🎯 Objetivo
 
 Realizar:
 
-* ingestão de dados CSV;
-* transformação e limpeza dos dados;
-* carga em banco SQL;
-* análises de vendas.
+* 📥 ingestão de dados CSV;
+* 🧹 transformação e limpeza dos dados;
+* 💾 carga em banco SQL;
+* 📊 análises de vendas.
 
-## Technologies Used
+## 💻 Technologies Used
 
-* Python
-* Pandas
-* SQLite
-* Google Colab
-* SQL
+* 🐍 Python
+* 🐼 Pandas
+* 🗄️ SQLite
+* ☁️ Google Colab
+* 🔍 SQL
 
-## Data Pipeline
+## 🔄 Data Pipeline
 
-CSV → Data Transformation → SQLite Database → Data Analysis
+📄 CSV → ⚙️ Data Transformation → 🗄️ SQLite Database → 📈 Data Analysis
 
-## Features
+## ✨ Features
 
-* CSV Reading
-* Data Cleaning
-* Metrics Creation
-* SQL Queries
-* Data Visualization
+* 📖 CSV Reading
+* 🧽 Data Cleaning
+* 📏 Metrics Creation
+* 🔎 SQL Queries
+* 📊 Data Visualization
 
-## ETL Example
+## 🏗️ ETL Example
 
-### Extract
+### 📤 Extract
 
-Leitura do CSV de vendas.
+Leitura do CSV de vendas. 📄
 
-### Transform
+### ⚙️ Transform
 
-* Conversão de datas
-* Criação da coluna `valor_total`
-* Criação da coluna `mes`
+* 📅 Conversão de datas
+* 💰 Criação da coluna `valor_total`
+* 📆 Criação da coluna `mes`
 
-### Load
+### 📥 Load
 
-Carga dos dados em banco SQLite.
+Carga dos dados em banco SQLite. 💾
 
-## Author
+## 👤 Author
 
-Matheus Paleari
+Matheus Paleari 👨‍💻
