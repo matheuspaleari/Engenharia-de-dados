@@ -125,3 +125,4 @@ Durante o processo ETL foram aplicadas as seguintes transformações:
 **Matheus Paleari**
 
 GitHub: https://github.com/matheuspaleari
+Linkedin: https://www.linkedin.com/in/matheus-paleari-017018163/
