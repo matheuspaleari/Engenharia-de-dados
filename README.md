@@ -1,52 +1,127 @@
-# 🛠️ Projeto de Data Engineering ETL
+# 🛠️ Sales ETL Pipeline
 
-Projeto simples de Data Engineering desenvolvido em Python utilizando ETL (Extract, Transform and Load). 🚀
+Projeto de Engenharia de Dados desenvolvido em Python com foco na construção de um pipeline ETL (Extract, Transform and Load) para processamento e análise de dados de vendas.
 
-## 🎯 Objetivo
+O objetivo é demonstrar conceitos fundamentais de ingestão, transformação, armazenamento e consulta de dados utilizando ferramentas amplamente empregadas em projetos de dados.
 
-Realizar:
+## 📁 Estrutura do Projeto
 
-* 📥 ingestão de dados CSV;
-* 🧹 transformação e limpeza dos dados;
-* 💾 carga em banco SQL;
-* 📊 análises de vendas.
+O projeto é composto pelas seguintes etapas:
 
-## 💻 Technologies Used
+### 📥 Extração (Extract)
 
-* 🐍 Python
-* 🐼 Pandas
-* 🗄️ SQLite
-* ☁️ Google Colab
-* 🔍 SQL
+Leitura de dados de vendas a partir de arquivos CSV.
 
-## 🔄 Data Pipeline
+### ⚙️ Transformação (Transform)
 
-📄 CSV → ⚙️ Data Transformation → 🗄️ SQLite Database → 📈 Data Analysis
+Tratamento e enriquecimento dos dados por meio de:
 
-## ✨ Features
+* Conversão de datas
+* Limpeza de registros
+* Criação de métricas de negócio
+* Padronização de informações
+* Geração de novas colunas analíticas
 
-* 📖 CSV Reading
-* 🧽 Data Cleaning
-* 📏 Metrics Creation
-* 🔎 SQL Queries
-* 📊 Data Visualization
+### 💾 Carga (Load)
 
-## 🏗️ ETL Example
+Persistência dos dados processados em banco SQLite para consultas e análises posteriores.
 
-### 📤 Extract
+---
 
-Leitura do CSV de vendas. 📄
+## 🎯 Objetivo do Projeto
 
-### ⚙️ Transform
+Este projeto foi desenvolvido para praticar conceitos essenciais de Engenharia de Dados, incluindo:
 
-* 📅 Conversão de datas
-* 💰 Criação da coluna `valor_total`
-* 📆 Criação da coluna `mes`
+* Ingestão de dados
+* Processos ETL
+* Manipulação de dados com Python
+* Armazenamento em banco relacional
+* Consultas SQL
+* Geração de insights a partir dos dados
 
-### 📥 Load
+---
 
-Carga dos dados em banco SQLite. 💾
+## 🛠️ Tecnologias Utilizadas
 
-## 👤 Author
+### Linguagem
 
-Matheus Paleari 👨‍💻
+* Python
+
+### Manipulação de Dados
+
+* Pandas
+
+### Banco de Dados
+
+* SQLite
+
+### Consultas
+
+* SQL
+
+### Ambiente
+
+* Google Colab
+* Jupyter Notebook
+
+---
+
+## 🔄 Pipeline de Dados
+
+```text
+CSV Files
+    ↓
+Data Extraction
+    ↓
+Data Cleaning
+    ↓
+Data Transformation
+    ↓
+SQLite Database
+    ↓
+SQL Analysis
+    ↓
+Business Insights
+```
+
+---
+
+## ✨ Funcionalidades Implementadas
+
+* Leitura de arquivos CSV
+* Limpeza e tratamento de dados
+* Conversão de tipos de dados
+* Criação de métricas de vendas
+* Armazenamento em banco SQLite
+* Execução de consultas SQL
+* Análise exploratória dos resultados
+
+---
+
+## 📊 Transformações Realizadas
+
+Durante o processo ETL foram aplicadas as seguintes transformações:
+
+* Conversão de colunas de data
+* Criação da coluna `valor_total`
+* Criação da coluna `mes`
+* Padronização dos dados
+* Remoção de inconsistências
+
+---
+
+## 🎯 Principais Aprendizados
+
+* Construção de pipelines ETL utilizando Python
+* Manipulação de grandes volumes de dados com Pandas
+* Integração entre Python e bancos relacionais
+* Escrita de consultas SQL para análise de dados
+* Estruturação de projetos de Engenharia de Dados
+
+---
+
+## 👨‍💻 Autor
+
+**Matheus Paleari**
+
+GitHub: https://github.com/matheuspaleari
